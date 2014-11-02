@@ -1,9 +1,9 @@
 - name: Install things
   include: installs.yml
 
-# - name: Set Mac OS X settings
-#   include: osx_settings.yml
-#   when: skip_osx is not defined
+- name: Set Mac OS X settings
+  include: osx_settings.yml
+  when: skip_osx is not defined
 
 # - name: Link in dotfiles
 #   include: dotfiles.yml
