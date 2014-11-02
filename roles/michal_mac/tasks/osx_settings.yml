@@ -27,12 +27,12 @@
   notify: kill finder
 
 - name: Terminal theme
-  command: open ~/Documents/Projects/mac-ansible/roles/adam_mac/files/Chainz.terminal
+  command: open ~/Projects/mac-ansible/roles/michal_mac/files/Michal.terminal
 
 - name: Terminal settings
   command: defaults write com.apple.terminal {{ item }}
   with_items:
-    - '"Default Window Settings" -string "Chainz"'
-    - '"Startup Window Settings" -string "Chainz"'
+    - '"Default Window Settings" -string "Michal"'
+    - '"Startup Window Settings" -string "Michal"'
 
 - command: chflags nohidden ~/Library/
