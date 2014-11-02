@@ -1,116 +1,48 @@
 ---
 homebrew_packages:
-  - autoconf
-  - autojump
-  - automake
   - brew-cask
   - coreutils
   - cowsay
-  - exiftool
-  - ffmpeg
-  - freetype
-  - fswatch
-  - gdbm
   - git
   - gpg
-  - htop-osx
-  - imagemagick
-  - jpeg
-  - jpegoptim
+  - htop-osx # run htop process monitor
   - jq
   - lesspipe
-  - libevent
-  - libmemcached
-  - libpng
-  - libtool
-  - libyaml
-  - md5sha1sum
-  - memcached
   - mysql
-  - ncdu
-  - node
+  - ncdu # disk space viewer
   - openssl
-  - ossp-uuid
-  - percona-toolkit
-  - pkg-config
-  - pngcrush
   - postgresql
-  - pypy
-  - python
-  - python3
+  # - python
+  # - python3
   - readline
-  - rtmpdump
-  - ruby
-  - ruby-build
-  - ruby-install
-  - sloccount
+  - sloccount #  stats for number of source code lines
   - sqlite
-  - tree
-  - watch
-  - wget
-  - xz
-  - youtube-dl
-  - zsh-completions
+  - tree # like  ls but draws a tree
+  - watch # watch ls to run commands every ttwo seconds as default (n -60) - 60 sec
+  - wget # saves url to disk like curl but savess
+  - youtube-dl # awesome util for downloading videos
 
 homebrew_cask_packages:
-  - alfred
   - anki
-  - arq
   - bettertouchtool
-  - boot2docker
-  - calibre
-  - ccleaner
   - charles
-  - disk-inventory-x
   - evernote
   - firefox
   - flux
   - google-chrome
-  - karabiner
-  - keyboard-maestro
-  - mactex
-  - makehuman
   - pdftk
-  - pgadmin3
   - rescuetime
   - sequel-pro
-  - skim
   - skype
-  - soundcleod
-  - steam
+  - spotify
   - sublime-text
-  - texmaker
-  - utorrent
   - vagrant
   - virtualbox
   - vlc
 
 pip_packages:
-  - 'git+https://github.com/adamchainz/ec2-ssh.git@master#egg=ec2-ssh'
-  - 'https://bitbucket.org/adamchainz/pygments-ipython-console/get/master.zip#egg=pygments-ipython-console'
   - csvkit
-  - dynamodb_utils
   - flake8
-  - Glances
   - ipdb
-  - ipython
-  - lifelogger
-  - numpy
-  - pandas
-  - pathlib
-  - pep8
-  - pygments
-  - pylint
-  - pythonpy
-  - pyyaml
-  - requests
-  - scipy
-  - sh
-  - six
-  - Unipath
   - virtualenvwrapper
 
-npm_packages:
-  - ember-cli
-  - phonegap
-  - vtop

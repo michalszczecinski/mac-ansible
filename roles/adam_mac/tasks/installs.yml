@@ -26,8 +26,4 @@
   tags:
     - pip
 
-- name: Install npm packages
-  npm: name={{ item }} state=latest global=yes
-  with_items: npm_packages
-  tags:
-    - npm
+
